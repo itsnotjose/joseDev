@@ -1,0 +1,14 @@
+.bg{
+    z-index: -1;
+    background-image: radial-gradient(circle closest-corner at 50% 0, #2f1183, rgba(49, 21, 102, 0));
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: hidden;
+    background-color: #070a1b;
+    }

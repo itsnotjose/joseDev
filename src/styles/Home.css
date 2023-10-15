@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;900&family=Rokkitt:wght@200&display=swap");
+@keyframes pop {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.card {
+  background-image: radial-gradient(
+    circle farthest-side at 50% 0,
+    #2d1f74,
+    rgba(84, 61, 199, 0)
+  );
+  position: fixed;
+  animation: pop 0.5s ease-in-out;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: auto;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 50%;
+  animation: pop 0.5s ease-in-out;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  animation: pop 0.5s ease-in-out;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: rgb(52, 36, 82);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 3px 3px rgba(56, 6, 221, 0.25);
+}
+
+.button:hover {
+  background-color: #8576b5;
+}
+
+.slogan {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 20px;
+  color: rgb(145, 140, 140);
+  animation: pop 0.5s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10%;
+  }
+}
