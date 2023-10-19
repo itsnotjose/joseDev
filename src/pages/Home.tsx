@@ -26,8 +26,9 @@ const Home = () => {
         <Avatar
           className="avatar"
           style={{ width: 154, height: 154 }}
-          src="../assets/memoji.jpeg"
+          src="https://itsnotjose.github.io/joseDev/assets/memoji.jpeg"
         />
+     
         <h1 className="name">Hey 👋🏽 I'm Jose </h1>
         <h3 className="slogan">Debugging the World, One Line at a Time</h3>
         <div className="button-container">

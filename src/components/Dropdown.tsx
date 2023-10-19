@@ -44,7 +44,7 @@ const DropdownMenu = () => {
           }}
           onClick={handleClose}
           component={Link}
-          to="/"
+          to="/joseDev"
         >
           <span className="icon">🏠</span>
           <h4>Home</h4>
