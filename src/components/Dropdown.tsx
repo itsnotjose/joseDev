@@ -59,7 +59,7 @@ const DropdownMenu = () => {
           }}
           onClick={handleClose}
           component={Link}
-          to="/Timeline"
+          to="/joseDev/Timeline"
         >
           <span className="icon">🧸</span>
           <h4>About</h4>
@@ -73,7 +73,7 @@ const DropdownMenu = () => {
           }}
           onClick={handleClose}
           component={Link}
-          to="/Projects"
+          to="/joseDev/Projects"
         >
           <span className="icon">💼</span> <h4>Projects</h4>
         </MenuItem>
