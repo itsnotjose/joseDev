@@ -44,7 +44,7 @@ const DropdownMenu = () => {
           }}
           onClick={handleClose}
           component={Link}
-          to="/joseDev"
+          to="/"
         >
           <span className="icon">🏠</span>
           <h4>Home</h4>
@@ -59,7 +59,7 @@ const DropdownMenu = () => {
           }}
           onClick={handleClose}
           component={Link}
-          to="/joseDev/Timeline"
+          to="/Timeline"
         >
           <span className="icon">🧸</span>
           <h4>About</h4>
@@ -73,7 +73,7 @@ const DropdownMenu = () => {
           }}
           onClick={handleClose}
           component={Link}
-          to="/joseDev/Projects"
+          to="/Projects"
         >
           <span className="icon">💼</span> <h4>Projects</h4>
         </MenuItem>
